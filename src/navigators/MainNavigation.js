@@ -33,7 +33,7 @@ const MainNavigation = () => {
           component={Bookings}
           options={{
             tabBarIcon: ({ color, size }) => (
-              <MaterialIcons name="book-online" size={size} color={color} />
+              <MaterialIcons name="event" size={size} color={color} />
             ),
             tabBarLabel: "Bookings",
             tabBarLabelStyle: {
