@@ -1,16 +1,185 @@
 {
-    "users":[
-        {
-            "id":1,
-            "name":"Shantanu",
-            "email":"sg@sg.com",
-            "password":"sg@123"
-        },  {
-            "id":2,
-            "name":"admin",
-            "email":"admin@admin.com",
-            "password":"admin"
-        }
-    ],
-    "events":[]
+  
+  "events": [
+    {
+      "id": 1,
+      "title": "Rock Music Festival",
+      "date": "2023-11-01",
+      "location": "Madison Square Garden, NY",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Join us for an unforgettable night of rock music with top bands from around the world.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 2,
+      "title": "Jazz Night",
+      "date": "2023-11-05",
+      "location": "Blue Note, NY",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Experience the smooth sounds of jazz with renowned artists.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 3,
+      "title": "Standup Comedy Show",
+      "date": "2023-11-10",
+      "location": "Comedy Cellar, NY",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Laugh out loud with the best standup comedians in the industry.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 4,
+      "title": "Classical Music Concert",
+      "date": "2023-11-12",
+      "location": "Carnegie Hall, NY",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Enjoy an evening of classical music performed by world-class musicians.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 5,
+      "title": "Pop Music Extravaganza",
+      "date": "2023-11-15",
+      "location": "Barclays Center, NY",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Dance the night away with the biggest pop stars.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 6,
+      "title": "Hip Hop Night",
+      "date": "2023-11-18",
+      "location": "Apollo Theater, NY",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Get ready for an electrifying night of hip hop music.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 7,
+      "title": "Country Music Festival",
+      "date": "2023-11-20",
+      "location": "Nashville, TN",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Enjoy the best of country music with top artists.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 8,
+      "title": "Indie Music Night",
+      "date": "2023-11-22",
+      "location": "Brooklyn Bowl, NY",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Discover new indie bands and enjoy their unique sounds.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 9,
+      "title": "Blues Festival",
+      "date": "2023-11-25",
+      "location": "Chicago, IL",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Experience the soulful sounds of blues music.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 10,
+      "title": "Electronic Music Party",
+      "date": "2023-11-28",
+      "location": "Miami, FL",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Dance to the beats of top electronic music DJs.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 11,
+      "title": "Reggae Night",
+      "date": "2023-12-01",
+      "location": "Kingston, Jamaica",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Feel the rhythm of reggae music with top artists.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 12,
+      "title": "Latin Music Festival",
+      "date": "2023-12-05",
+      "location": "Los Angeles, CA",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Enjoy the vibrant sounds of Latin music.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 13,
+      "title": "Folk Music Concert",
+      "date": "2023-12-08",
+      "location": "Austin, TX",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Experience the rich tradition of folk music.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 14,
+      "title": "Metal Music Festival",
+      "date": "2023-12-12",
+      "location": "Detroit, MI",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Headbang to the heavy sounds of metal music.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 15,
+      "title": "Standup Comedy Night",
+      "date": "2023-12-15",
+      "location": "Laugh Factory, LA",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Laugh your heart out with top comedians.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 16,
+      "title": "Opera Night",
+      "date": "2023-12-18",
+      "location": "Metropolitan Opera, NY",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "Enjoy a night of beautiful opera performances.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 17,
+      "title": "Standup Comedy Marathon",
+      "date": "2023-12-20",
+      "location": "Comedy Store, LA",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "A marathon of laughter with the best standup comedians.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 18,
+      "title": "Rock Legends Concert",
+      "date": "2023-12-22",
+      "location": "Wembley Stadium, London",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "A night of rock music with legendary bands.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 19,
+      "title": "Standup Comedy Gala",
+      "date": "2023-12-25",
+      "location": "Sydney Opera House, Sydney",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "A gala event featuring top standup comedians.",
+      "image": "https://picsum.photos/1080"
+    },
+    {
+      "id": 20,
+      "title": "Hip Hop Legends Night",
+      "date": "2023-12-28",
+      "location": "Staples Center, LA",
+      "thumbnail": "https://picsum.photos/200",
+      "description": "A night of hip hop music with legendary artists.",
+      "image": "https://picsum.photos/1080"
+    }
+  ]
 }

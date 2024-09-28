@@ -6,7 +6,7 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import * as SplashScreen from "expo-splash-screen";
 import { Provider } from "react-redux";
 import { useEffect } from "react";
-import store from "./src/features/store"
+import store from "./src/features/store";
 import Main from "./Main";
 import { useFonts } from "expo-font";
 export default function App() {
@@ -32,11 +32,13 @@ export default function App() {
     return null;
   }
   return (
-    <View className="flex-1">
+    <GestureHandlerRootView>
       <Provider store={store}>
-        <Main />
+        <View className="flex-1">
+          <Main />
+        </View>
       </Provider>
-    </View>
+    </GestureHandlerRootView>
   );
 }
 
