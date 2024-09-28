@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native'
-const MainNavigation = () => {
+const Bookings = () => {
   return (
     <View>
-      <Text>MainNavigation</Text>
+      <Text>Bookings</Text>
     </View>
   )
 }
-export default MainNavigation
+export default Bookings
 const styles = StyleSheet.create({})

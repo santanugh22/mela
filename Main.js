@@ -1,12 +1,13 @@
-import "./global.css"
+import "./global.css";
 import { StyleSheet, Text, View } from "react-native";
 import { Provider } from "react-redux";
+
+import MainNavigation from "./src/navigators/MainNavigation";
 const Main = () => {
   return (
-    <View className="flex-1 justify-center items-center bg-black">
-      <Text className="text-white text-3xl font-[Lato-Regular]">Main</Text>
+    <View className="flex-1">
+      <MainNavigation />
     </View>
   );
 };
 export default Main;
-const styles = StyleSheet.create({});

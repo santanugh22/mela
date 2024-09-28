@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native'
-const AuthNavigator = () => {
+const ViewEvent = () => {
   return (
     <View>
-      <Text>AuthNavigator</Text>
+      <Text>ViewEvent</Text>
     </View>
   )
 }
-export default AuthNavigator
+export default ViewEvent
 const styles = StyleSheet.create({})

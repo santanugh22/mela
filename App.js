@@ -1,9 +1,12 @@
 import "./global.css";
+
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import * as SplashScreen from "expo-splash-screen";
+import { Provider } from "react-redux";
 import { useEffect } from "react";
+import store from "./src/features/store"
 import Main from "./Main";
 import { useFonts } from "expo-font";
 export default function App() {
@@ -29,8 +32,10 @@ export default function App() {
     return null;
   }
   return (
-    <View className="flex-1 bg-gray-950 flex-1">
-      <Main />
+    <View className="flex-1">
+      <Provider store={store}>
+        <Main />
+      </Provider>
     </View>
   );
 }
