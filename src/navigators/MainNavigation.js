@@ -22,13 +22,25 @@ const MainNavigation = () => {
             tabBarIcon: ({ color, size }) => (
               <Feather name="home" size={size} color={color} />
             ),
+            tabBarLabel: "Home",
+            tabBarLabelStyle: {
+              fontFamily: "Lato-Regular",
+            },
           }}
         />
-        <Tab.Screen name="BOOKINGS" component={Bookings} options={{
-          tabBarIcon: ({ color, size }) => (
-            <MaterialIcons name="book-online" size={size} color={color} />
-          ),
-        }}/>
+        <Tab.Screen
+          name="BOOKINGS"
+          component={Bookings}
+          options={{
+            tabBarIcon: ({ color, size }) => (
+              <MaterialIcons name="book-online" size={size} color={color} />
+            ),
+            tabBarLabel: "Bookings",
+            tabBarLabelStyle: {
+              fontFamily: "Lato-Regular",
+            },
+          }}
+        />
       </Tab.Navigator>
     </NavigationContainer>
   );
