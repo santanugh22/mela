@@ -1,9 +1,22 @@
-import { SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { FlatList, SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { useFetchBookingsQuery } from "../../features/api/apiSlice";
+import EventCard from "../../components/EventCard";
 
 const Bookings = () => {
-const { user } = useAuth();
-  return <SafeAreaView className="flex-1 bg-gray-200" >
+  const { data, error, isLoading } = useFetchBookingsQuery();
+  console.log(data);
+  return <SafeAreaView className="flex-1 bg-gray-200">
+    <View>
+    <Text className="p-3 text-3xl font-[Lato-Bold]">Bookings</Text>
 
+    </View>
+    <View>
+      {
+        data && <FlatList data={data} renderItem={({item})=>{
+          return <EventCard item={item}/>
+        }}/>
+      }
+    </View>
   </SafeAreaView>;
 };
 export default Bookings;

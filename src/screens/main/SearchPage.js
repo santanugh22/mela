@@ -5,18 +5,20 @@ import {
   View,
   TextInput,
   Pressable,
+  FlatList,
 } from "react-native";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { useNavigation } from "@react-navigation/native";
 import { useState } from "react";
+import EventCard from "../../components/EventCard";
 import { useSearchEventsQuery } from "../../features/api/apiSlice";
 const SearchPage = () => {
   const navigation = useNavigation();
   const [query, setQuery] = useState("");
-  const { data, error, isError } = useSearchEventsQuery(query,{
-    skip:query===""
+  const { data, error, isError } = useSearchEventsQuery(query, {
+    skip: query === "",
   });
-  console.log(data)
+  console.log(data);
 
   return (
     <SafeAreaView className="flex-1 bg-gray-200">
@@ -43,8 +45,15 @@ const SearchPage = () => {
         </View>
       </View>
 
-      <View>
-
+      <View className="mt-7">
+        {data ? (
+          <FlatList
+            data={data}
+            renderItem={({ item }) => {
+              return <EventCard item={item} />;
+            }}
+          />
+        ) : null}
       </View>
     </SafeAreaView>
   );
