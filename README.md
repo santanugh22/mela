@@ -8,10 +8,12 @@ Welcome to the Event Booking App! This project is built using Expo for the front
 ![Event Details](./product/img2.png)
 ![Book Event](./product/img3.png)
 ![My Bookings](./product/img4.png)] -->
-<img src="./product/img1.png" alt="Homepage" width="300"/>
-<img src="./product/img2.png" alt="Event Details" width="300"/>
-<img src="./product/img3.png" alt="Book Event" width="300"/>
-<img src="./product/img4.png" alt="My Bookings" width="300"/>
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="./product/img1.png" alt="Homepage" width="300"/>
+  <img src="./product/img2.png" alt="Event Details" width="300"/>
+  <img src="./product/img3.png" alt="Book Event" width="300"/>
+  <img src="./product/img4.png" alt="My Bookings" width="300"/>
+</div>
 
 ## Table of Contents
 
@@ -31,10 +33,16 @@ The Event Booking App allows users to browse, book, and manage events seamlessly
 - Browse events
 - Book events
 - Manage bookings
-- User authentication
 - Responsive design
 
 ## Installation
+
+- Mock API with JSON Server
+- To start the JSON Server, run the following command:
+
+  ```sh
+  npm i -g json-server && cd server && json-server --watch db.json
+  ```
 
 ### Prerequisites
 
@@ -57,13 +65,7 @@ The Event Booking App allows users to browse, book, and manage events seamlessly
    npm install
    ```
 
-3. Start the JSON Server:
-
-   ```sh
-   npm run json-server
-   ```
-
-4. Start the Expo app:
+3. Start the Expo app:
    ```sh
    npm start
    ```
