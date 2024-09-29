@@ -9,10 +9,11 @@ Welcome to the Event Booking App! This project is built using Expo for the front
 ![Book Event](./product/img3.png)
 ![My Bookings](./product/img4.png)] -->
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="./product/img1.png" alt="Homepage" width="300"/>
+  <img src="./product/img1.png" alt="Homepage" width="300" />
   <img src="./product/img2.png" alt="Event Details" width="300"/>
   <img src="./product/img3.png" alt="Book Event" width="300"/>
   <img src="./product/img4.png" alt="My Bookings" width="300"/>
+  <img src="./product/img5.png" alt="My Bookings" width="300"/>
 </div>
 
 ## Table of Contents
@@ -21,8 +22,6 @@ Welcome to the Event Booking App! This project is built using Expo for the front
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -34,6 +33,10 @@ The Event Booking App allows users to browse, book, and manage events seamlessly
 - Book events
 - Manage bookings
 - Responsive design
+- RTK query for fetching data
+- Redux for state management
+- JSON Server for mock API
+- NativeWind for styling
 
 ## Installation
 
