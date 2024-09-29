@@ -182,33 +182,6 @@
     }
   ],
   "bookings": [
-    {
-      "quantity": 1,
-      "id": 1
-    },
-    {
-      "id": 2,
-      "title": "Jazz Night",
-      "date": "2023-11-05",
-      "location": "Blue Note, NY",
-      "thumbnail": "https://picsum.photos/200",
-      "description": "Experience the smooth sounds of jazz with renowned artists.",
-      "image": "https://picsum.photos/1080",
-      "quantity": 2,
-      "name": "Sss",
-      "email": "Ssss"
-    },
-    {
-      "id": 4,
-      "title": "Classical Music Concert",
-      "date": "2023-11-12",
-      "location": "Carnegie Hall, NY",
-      "thumbnail": "https://picsum.photos/200",
-      "description": "Enjoy an evening of classical music performed by world-class musicians.",
-      "image": "https://picsum.photos/1080",
-      "quantity": 1,
-      "name": "As",
-      "email": "Aaa"
-    }
+
   ]
 }

@@ -16,6 +16,9 @@ const Bookings = () => {
           return <EventCard item={item}/>
         }}/>
       }
+      {
+        !data.length && <Text className="text-center text-2xl">No Bookings</Text>
+      }
     </View>
   </SafeAreaView>;
 };
