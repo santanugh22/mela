@@ -7,9 +7,27 @@ const apiSlice = createApi({
     fetchEvents: builder.query({
       query: () => "/events",
     }),
+    fetchBookings: builder.query({
+      query: () => "/bookings",
+    }),
+    makeBooking: builder.mutation({
+      query: (booking) => ({
+        url: "/bookings",
+        method: "POST",
+        body: booking,
+      }),
+    }),
+    searchEvents: builder.query({
+      query: (query) => `/events?q=${query}`,
+    }),
   }),
 });
 
-export const { useFetchEventsQuery } = apiSlice;
+export const {
+  useFetchEventsQuery,
+  useFetchBookingsQuery,
+  useMakeBookingMutation,
+  useSearchEventsQuery,
+} = apiSlice;
 
 export default apiSlice;

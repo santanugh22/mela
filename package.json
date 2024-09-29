@@ -18,7 +18,7 @@
     "expo-font": "~12.0.10",
     "expo-splash-screen": "~0.27.6",
     "expo-status-bar": "~1.12.1",
-    "json-server": "^1.0.0-beta.3",
+    "json-server": "0.17.4",
     "nativewind": "^4.1.10",
     "react": "18.2.0",
     "react-native": "0.74.5",

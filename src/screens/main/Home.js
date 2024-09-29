@@ -4,8 +4,10 @@ import { useFetchEventsQuery } from "../../features/api/apiSlice";
 import { FlatList } from "react-native-gesture-handler";
 import EventCard from "../../components/EventCard";
 import { useBottomTabBarHeight } from "@react-navigation/bottom-tabs";
+import { useNavigation } from "@react-navigation/native";
 const Home = () => {
   const { data, error, isError } = useFetchEventsQuery();
+  const navigation=useNavigation();
 
   const bottomHeight = useBottomTabBarHeight();
 
@@ -19,7 +21,7 @@ const Home = () => {
             </Text>
           </View>
           <View>
-            <Pressable>
+            <Pressable onPress={()=>navigation.navigate("SearchPage")}>
               <View className="px-3">
                 <Text>
                   <Feather name="search" size={24} />
@@ -47,6 +49,9 @@ const Home = () => {
                 contentContainerStyle={{ paddingBottom: bottomHeight+10 }}
               />
             )}
+            {
+              isError && <Text>Error fetching data</Text>
+            }
           </View>
         </View>
       </View>
