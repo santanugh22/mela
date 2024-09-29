@@ -3,7 +3,10 @@
 Welcome to the Event Booking App! This project is built using Expo for the frontend and JSON Server for the mock API.
 
 ## Screenshots
-[![img1.png](https://i.postimg.cc/3J1vJ1Zz/Screenshot)]
+[![Homepage](./product/img1.png)]
+[![Event Details](./product/img2.png)]
+[![Book Event](./product/img3.png)]
+[![My Bookings](./product/img4.png)]
 
 ## Table of Contents
 
